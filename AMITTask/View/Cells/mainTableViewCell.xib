@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13528" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13526"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="fontawesome-webfont.ttf">
+            <string>FontAwesome</string>
+        </array>
+        <array key="thesans-bold.otf">
+            <string>TheSans-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="291" id="4Ut-Gy-sCt" customClass="mainTableViewCell" customModule="AMITTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="714" height="291"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4Ut-Gy-sCt" id="91r-4R-kN3">
+                <rect key="frame" x="0.0" y="0.0" width="714" height="290.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fyc-UF-u7M">
+                        <rect key="frame" x="0.0" y="30" width="714" height="245.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User number:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R0d-fz-1da">
+                        <rect key="frame" x="10" y="40" width="89" height="25.5"/>
+                        <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="18"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="----------" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDW-WC-I5L">
+                        <rect key="frame" x="653.5" y="40" width="50.5" height="25.5"/>
+                        <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="18"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="latitude :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbW-wT-C1J">
+                        <rect key="frame" x="10" y="91.5" width="60" height="25.5"/>
+                        <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="18"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-----" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Csc-sf-JXv">
+                        <rect key="frame" x="668.5" y="91.5" width="25.5" height="25.5"/>
+                        <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="18"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Longitude :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dbk-wD-BTd">
+                        <rect key="frame" x="10" y="143" width="74" height="25.5"/>
+                        <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="18"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-----" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KiB-I6-IWT">
+                        <rect key="frame" x="668.5" y="143" width="25.5" height="25.5"/>
+                        <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="18"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" text="Address :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5b-or-pR7">
+                        <rect key="frame" x="10" y="192.5" width="60" height="25.5"/>
+                        <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="18"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-----" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMq-X8-tK1">
+                        <rect key="frame" x="90" y="192.5" width="604" height="25.5"/>
+                        <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="18"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="userFX" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awa-Bi-lcU">
+                        <rect key="frame" x="10" y="240" width="44.5" height="25.5"/>
+                        <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="18"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-----" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQb-4w-Axo">
+                        <rect key="frame" x="668.5" y="240" width="25.5" height="25.5"/>
+                        <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" name="TheSans-Bold" family="TheSans" pointSize="18"/>
+                        </variation>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyi-4f-quD">
+                        <rect key="frame" x="337" y="11" width="41" height="38"/>
+                        <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="25"/>
+                        <state key="normal" title="edit">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="editClicked:" destination="4Ut-Gy-sCt" eventType="touchUpInside" id="w0v-oh-zD8"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="ZbW-wT-C1J" firstAttribute="leading" secondItem="R0d-fz-1da" secondAttribute="leading" id="6Qc-mV-zG0"/>
+                    <constraint firstItem="awa-Bi-lcU" firstAttribute="top" secondItem="y5b-or-pR7" secondAttribute="bottom" constant="22" id="6je-KE-Evi"/>
+                    <constraint firstItem="ZbW-wT-C1J" firstAttribute="top" secondItem="R0d-fz-1da" secondAttribute="bottom" constant="26" id="7bC-aF-UmM"/>
+                    <constraint firstItem="uyi-4f-quD" firstAttribute="centerX" secondItem="91r-4R-kN3" secondAttribute="centerX" id="AxV-89-dJm"/>
+                    <constraint firstItem="Csc-sf-JXv" firstAttribute="trailing" secondItem="XDW-WC-I5L" secondAttribute="trailing" constant="-10" id="BF9-wb-YMn"/>
+                    <constraint firstItem="HMq-X8-tK1" firstAttribute="leading" secondItem="y5b-or-pR7" secondAttribute="trailing" constant="20" id="BXN-nx-CNm"/>
+                    <constraint firstAttribute="trailing" secondItem="Fyc-UF-u7M" secondAttribute="trailing" id="E9j-WN-W5v"/>
+                    <constraint firstItem="HMq-X8-tK1" firstAttribute="centerY" secondItem="y5b-or-pR7" secondAttribute="centerY" id="GNT-nt-Ep7"/>
+                    <constraint firstItem="HMq-X8-tK1" firstAttribute="trailing" secondItem="XDW-WC-I5L" secondAttribute="trailing" constant="-10" id="JWq-a7-f0t"/>
+                    <constraint firstAttribute="trailing" secondItem="XDW-WC-I5L" secondAttribute="trailing" constant="10" id="PDd-cH-PUK"/>
+                    <constraint firstAttribute="bottom" secondItem="Fyc-UF-u7M" secondAttribute="bottom" constant="15" id="QNi-Wd-ZOx"/>
+                    <constraint firstItem="Fyc-UF-u7M" firstAttribute="top" secondItem="91r-4R-kN3" secondAttribute="top" constant="30" id="R1B-y4-Z6K"/>
+                    <constraint firstItem="Dbk-wD-BTd" firstAttribute="leading" secondItem="ZbW-wT-C1J" secondAttribute="leading" id="Rk1-bW-5ar"/>
+                    <constraint firstItem="Dbk-wD-BTd" firstAttribute="top" secondItem="ZbW-wT-C1J" secondAttribute="bottom" constant="26" id="Ryf-yp-ny5"/>
+                    <constraint firstItem="uyi-4f-quD" firstAttribute="centerY" secondItem="Fyc-UF-u7M" secondAttribute="top" id="T1E-c4-tjC"/>
+                    <constraint firstItem="sQb-4w-Axo" firstAttribute="trailing" secondItem="HMq-X8-tK1" secondAttribute="trailing" id="Vr2-bX-2bj"/>
+                    <constraint firstItem="R0d-fz-1da" firstAttribute="leading" secondItem="91r-4R-kN3" secondAttribute="leading" constant="10" id="WSK-YF-3L3"/>
+                    <constraint firstItem="awa-Bi-lcU" firstAttribute="bottom" secondItem="Fyc-UF-u7M" secondAttribute="bottom" constant="-10" id="Xj3-QA-M04"/>
+                    <constraint firstItem="Fyc-UF-u7M" firstAttribute="leading" secondItem="91r-4R-kN3" secondAttribute="leading" id="Xqb-sU-1eR"/>
+                    <constraint firstItem="R0d-fz-1da" firstAttribute="top" secondItem="91r-4R-kN3" secondAttribute="top" constant="40" id="aI2-fw-y4K"/>
+                    <constraint firstItem="KiB-I6-IWT" firstAttribute="centerY" secondItem="Dbk-wD-BTd" secondAttribute="centerY" id="cgw-3s-LOJ"/>
+                    <constraint firstItem="KiB-I6-IWT" firstAttribute="trailing" secondItem="XDW-WC-I5L" secondAttribute="trailing" constant="-10" id="kCf-VD-nBP"/>
+                    <constraint firstItem="Csc-sf-JXv" firstAttribute="centerY" secondItem="ZbW-wT-C1J" secondAttribute="centerY" id="v7d-YG-R1Y"/>
+                    <constraint firstItem="sQb-4w-Axo" firstAttribute="centerY" secondItem="awa-Bi-lcU" secondAttribute="centerY" id="vcS-ht-Qe4"/>
+                    <constraint firstItem="XDW-WC-I5L" firstAttribute="centerY" secondItem="R0d-fz-1da" secondAttribute="centerY" id="wFs-jf-RHk"/>
+                    <constraint firstItem="y5b-or-pR7" firstAttribute="leading" secondItem="Dbk-wD-BTd" secondAttribute="leading" id="wfJ-DR-EmL"/>
+                    <constraint firstItem="awa-Bi-lcU" firstAttribute="leading" secondItem="y5b-or-pR7" secondAttribute="leading" id="woc-Hq-GRN"/>
+                    <constraint firstItem="y5b-or-pR7" firstAttribute="top" secondItem="Dbk-wD-BTd" secondAttribute="bottom" constant="24" id="yoS-Ak-lt2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="addresslb" destination="HMq-X8-tK1" id="roY-8V-XV3"/>
+                <outlet property="editBu" destination="uyi-4f-quD" id="IyD-gL-tPi"/>
+                <outlet property="helperView" destination="Fyc-UF-u7M" id="H8m-NW-Joy"/>
+                <outlet property="latLb" destination="Csc-sf-JXv" id="bp9-vj-7iP"/>
+                <outlet property="lonlb" destination="KiB-I6-IWT" id="CX8-xb-GzQ"/>
+                <outlet property="userFX" destination="sQb-4w-Axo" id="lH1-Wi-1ze"/>
+                <outlet property="userNumberLb" destination="XDW-WC-I5L" id="d4P-WH-Gzh"/>
+            </connections>
+            <point key="canvasLocation" x="-13" y="42.5"/>
+        </tableViewCell>
+    </objects>
+</document>
